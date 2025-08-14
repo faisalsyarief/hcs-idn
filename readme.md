@@ -13,7 +13,7 @@ node version = v24.2.0
 ```
 
 ## Cara Menajalankan Aplikasi
-- node build/app.bundle.js
+- node build/app.secure.js
 - Link API: http://localhost:3000
 - Link Swagger: http://localhost:3000/api-docs
 
