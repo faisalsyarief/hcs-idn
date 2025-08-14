@@ -13,6 +13,7 @@ node version = v24.2.0
 ```
 
 ## Cara Menajalankan Aplikasi
+- npm install
 - node build/app.secure.js
 - Link API: http://localhost:3000
 - Link Swagger: http://localhost:3000/api-docs
