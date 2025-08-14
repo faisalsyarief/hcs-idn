@@ -405,24 +405,15 @@ var require_swagger = __commonJS({
     var swaggerDefinition = {
       openapi: "3.0.0",
       info: {
-        title: "Chatbot-AI API",
+        title: "PT Hitachi Channel Solutions Indonesia",
         version: "1.0.0",
-        description: "API untuk manajemen user chatbot"
+        description: "API Assessment Test"
       },
-      servers: [{ url: "http://localhost:3000", description: "Dev Server" }],
-      components: {
-        securitySchemes: {
-          bearerAuth: {
-            type: "http",
-            scheme: "bearer",
-            bearerFormat: "JWT"
-          }
-        }
-      }
+      servers: [{ url: "http://localhost:3000", description: "Dev Server" }]
     };
     var options = {
       definition: swaggerDefinition,
-      apis: ["./src/routes/**/*.js", "./src/routes/auth/*.js"]
+      apis: ["./src/routes/**/*.js"]
     };
     var specs2 = swaggerJsdoc(options);
     module2.exports = { swaggerUi: swaggerUi2, specs: specs2 };
